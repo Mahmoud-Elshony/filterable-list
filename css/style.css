@@ -1,0 +1,47 @@
+:root {
+  --border-color: #e5e4e5;
+}
+* {
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.contanier {
+  margin: 0 auto;
+  width: 80%;
+}
+.head {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+.search {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.search:focus{
+  outline: none;
+  border-bottom: 1px solid #279894;
+
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  /* margin: 0; */
+}
+ul li {
+  border-top: 2px solid var(--border-color);
+  padding-left: 30px;
+  margin: 10px -10px;
+  color: #279894;
+}
+ul li:last-child {
+  border-bottom: 2px solid var(--border-color);
+}
+ol {
+  list-style-type: none;
+  border: 2px solid var(--border-color);
+  padding: 10px;
+}
